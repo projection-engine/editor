@@ -1,0 +1,39 @@
+.wrapper {
+
+    transform: translateY(-100%);
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+    width: 200px;
+    height: fit-content;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, .2) 3px 3px 10px 5px;
+    background-color: var(--fabric-background-primary);
+    display: grid;
+    align-items: flex-start;
+
+
+}
+
+.basicButton {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 4px !important;
+    height: 30px;
+}
+
+.basicIconWrapper {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.basicIconWrapper > *{
+    font-size: 1.2rem !important;
+}

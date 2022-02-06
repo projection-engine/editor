@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a456cd5-da0f-4240-880e-d5f76eabaf42" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/engine" beforeDir="false" afterPath="$PROJECT_DIR$/services/engine" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/engine/renderer/shaders/mesh/resources/selected/meshSelectedFragment.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/services/engine/renderer/shaders/mesh/resources/selected/meshSelectedFragment.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="5a456cd5-da0f-4240-880e-d5f76eabaf42" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,14 +13,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="GLSL Shader" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="GLSL Shader" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/services/engine" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -48,10 +43,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/services/engine/renderer/shaders/deferred/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,17 +59,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="Z:\editor\services\engine\renderer\shaders\deferred\resources" />
-      <recent name="\\wsl.localhost\Ubuntu\home\roque\projects\projection\public" />
-      <recent name="Z:\projection\editor\core\renderer\shaders\shadowmap" />
-      <recent name="Z:\projection\editor\core\renderer\shaders\shadowmap\resources" />
+      <recent name="\\wsl$\Ubuntu\home\roque\projects\electron\public" />
+      <recent name="\\wsl$\Ubuntu\home\roque\projects\electron\src" />
+      <recent name="\\wsl.localhost\Ubuntu\home\roque\projects\editor\services\engine\renderer\shaders\deferred" />
+      <recent name="\\wsl.localhost\Ubuntu\home\roque\projects\editor\services\engine\renderer\shaders\deferred\resources\flat" />
+      <recent name="\\wsl.localhost\Ubuntu\home\roque\projects\editor\services\engine\renderer\shaders\deferred\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\home\roque\projects\electron\src" />
+      <recent name="\\wsl$\Ubuntu\home\roque\projects\electron\src\static" />
+      <recent name="\\wsl$\Ubuntu\home\roque\projects\electron\src\pages" />
+      <recent name="\\wsl.localhost\Ubuntu\home\roque\projects\editor\services\engine\renderer\shaders\deferred\resources\flat" />
       <recent name="\\wsl.localhost\Ubuntu\home\roque\projects\editor\services\workers" />
-      <recent name="\\wsl.localhost\Ubuntu\home\roque\projects\editor\services\image" />
-      <recent name="\\wsl.localhost\Ubuntu\home\roque\projects\editor\views\editor\utils" />
-      <recent name="\\wsl.localhost\Ubuntu\home\roque\projects\editor\views\material\workflows\algebra" />
-      <recent name="\\wsl.localhost\Ubuntu\home\roque\projects\editor\views\material\workflows\basic" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -102,7 +99,11 @@
       <workItem from="1643978031636" duration="8417000" />
       <workItem from="1643996496882" duration="762000" />
       <workItem from="1643999218239" duration="6869000" />
-      <workItem from="1644062080382" duration="31518000" />
+      <workItem from="1644062080382" duration="32134000" />
+      <workItem from="1644146846669" duration="24312000" />
+      <workItem from="1644177139675" duration="1183000" />
+      <workItem from="1644180141805" duration="7456000" />
+      <workItem from="1644188312834" duration="1231000" />
     </task>
     <servers />
   </component>

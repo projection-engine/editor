@@ -1,0 +1,67 @@
+.wrapper{
+    display: flex;
+    color: var(--fabric-color-secondary);
+    width: 100%;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    --accentColor: transparent;
+
+    user-select: none !important;
+}
+
+.wrapper::before{
+    content: '';
+    background-color: var(--accentColor);
+    height: 70%;
+    width: 2px;
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    transform: translate(-50%, -50%);
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background-color:var(--background-input);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.button{
+    width: 35px !important;
+    overflow: hidden;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.draggable{
+    width: 100%;
+    cursor: col-resize;
+    height: 100%;
+    transition: 150ms linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    color: var(--fabric-color-secondary);
+
+    text-align: center;
+}
+.draggable:active{
+    background-color: var(--background-3);
+}
+.draggable::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.draggable[type=number] {
+    -moz-appearance: textfield;
+}

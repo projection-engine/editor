@@ -1,0 +1,44 @@
+
+.header {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.button {
+    padding: 4px 8px !important;;
+
+    height: 100%;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: fit-content;
+
+    font-size: .7rem !important;
+    font-weight: 550;
+    color: var(--fabric-color-tertiary);
+
+}
+
+
+.settingsButton {
+    height: 25px;
+    padding: 0 2px !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settingsButton > * {
+    font-size: 1.3rem !important;
+}

@@ -1,0 +1,118 @@
+.wrapper {
+    display: grid;
+    align-items: flex-start;
+
+    width: 100%;
+    transition: 150ms linear;
+    overflow-x: hidden;
+    overflow-y: visible;
+    height: fit-content;
+
+}
+
+.row {
+    outline: transparent 1px dashed;
+    transition: 150ms linear;
+
+    border-radius:0  5px 5px 0;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 25px !important;
+
+    color: var(--fabric-color-secondary);
+    border-left: transparent 2px solid;
+    overflow: hidden;
+}
+.row:hover{
+    color: var(--fabric-accent-color);
+}
+
+.row[data-selected = 'true'] {
+    border-left-color: var(--fabric-accent-color);
+}
+
+.row:active {
+    border-left-color: var(--fabric-accent-color);
+}
+
+.row[data-highlight='true'] {
+    background-color: rgba(0, 149, 255, .5);
+}
+
+.hideButton {
+    width: 24px !important;
+    padding: 0 !important;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rowContentWrapper {
+    cursor: pointer;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    align-content: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.rowContent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    align-content: center;
+    font-size: .7rem;
+    overflow: hidden;
+
+
+}
+
+.input {
+    padding: 4px;
+    border: var(--fabric-border-primary) 1px solid;
+    outline: none;
+    border-radius: 5px;
+    background-color: var(--background-3);
+    color: var(--fabric-color-tertiary);
+
+}
+
+.rowType {
+    display: block;
+    text-align: right;
+    padding-right: 8px;
+    color: var(--fabric-color-quaternary);
+
+}
+
+.overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.indicator {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--fabric-accent-color);
+    position: absolute;
+    left: 4px;
+
+}
+
+.hoveredNode {
+    opacity: .5;
+    outline: var(--fabric-accent-color) 1px dashed;
+
+
+}

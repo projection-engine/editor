@@ -1,0 +1,32 @@
+.wrapper{
+
+    height: 25px;
+    width: 100%;
+
+
+    display: flex;
+
+    justify-content: flex-start;
+    gap: 4px;
+
+    position: relative;
+    margin-bottom: 3px;
+}
+
+.dropdownLabel{
+    height: 100%;
+    padding: 0 16px !important;
+}
+
+.logoWrapper{
+    width: fit-content;
+
+    background: var(--background-1) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: .9rem;
+    color: var(--fabric-color-primary);
+}

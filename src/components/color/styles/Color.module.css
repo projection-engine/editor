@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    align-items: center;
+    gap: 8px;
+}
+
+.buttons{
+    display: flex;
+    gap: 8px;
+}
+.button {
+    width: 100%;
+    height: 25px;
+
+    padding: 0 !important;
+}
+
+.placeholder {
+    width: 100%;
+    padding: 0 !important;
+    height: 35px;
+    background-color: black;
+}
+
+.label {
+    color: var(--fabric-color-secondary);
+    font-family: "Roboto";
+    font-weight: 550;
+    font-size: .75rem;
+}
+
+.modal{
+    display: grid;
+    gap: 16px;
+
+    padding: 8px;
+    border-radius: 5px;
+    background-color: var(--fabric-background-primary);
+    transform: translate(50%,50%);
+
+    box-shadow: rgba(0,0,0,.3) 2px 4px 10px 2px;
+}

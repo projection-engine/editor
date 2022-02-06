@@ -14,6 +14,7 @@
     <mapping directory="$PROJECT_DIR$/fabric-ui/src/core" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/fabric/src/core" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/services/engine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/services/engine" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/views/editor" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/views/files" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/views/material" vcs="Git" />

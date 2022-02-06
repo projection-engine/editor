@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    padding: 4px;
+    overflow: hidden;
+
+
+}
+
+.label {
+    font-size: .75rem;
+    font-weight: 550;
+    color: var(--fabric-color-secondary);
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+
+}
+
+.image {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}

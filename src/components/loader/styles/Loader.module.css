@@ -1,0 +1,78 @@
+
+.loader {
+    position: absolute;
+
+    padding: 4px;
+    top: 50%;
+    left: 50%;
+
+    width: 50%;
+    height: fit-content;
+    transform: translate(-50%, -50%);
+
+
+    border-radius: 5px;
+    display: grid;
+}
+
+.loadInfo {
+    display: grid;
+    color: var(--fabric-color-primary);
+    height: 35px;
+    font-size: .8rem;
+    font-weight: 550;
+
+}
+
+.loaderBar {
+
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+    height: 5px;
+
+    background-color: var(--fabric-background-tertiary);
+
+    border-radius: 5px;
+}
+
+.loaderBar[data-index = '0'] {
+    height: 10px;
+}
+
+.loading {
+    --animationSpeed: 2s;
+    height: 100%;
+    width: 100%;
+
+    opacity: .7;
+    animation: loadingA var(--animationSpeed) infinite linear;
+    transform-origin: 0 50%;
+}
+
+
+@keyframes loadingA {
+    0% {
+        transform:  translateX(0) scaleX(0);
+    }
+    40% {
+        transform:  translateX(0) scaleX(0.2);
+    }
+    100% {
+        transform:  translateX(100%) scaleX(0.25);
+    }
+}
+
+
+.wrapper{
+
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(1.5px);
+
+    position: fixed;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+}

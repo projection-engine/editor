@@ -1,0 +1,19 @@
+.wrapper {
+    background: inherit;
+
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 150ms linear;
+
+    min-height: 3px;
+    min-width: 3px;
+}
+
+.wrapper:active, .wrapper:hover {
+    background: var(--fabric-border-secondary) !important;
+}
+
+.wrapper[data-disabled = 'true']{
+    background: inherit !important;
+    cursor: default !important;
+}

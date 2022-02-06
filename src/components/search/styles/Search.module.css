@@ -1,0 +1,36 @@
+.wrapper {
+    height: 25px;
+    width: fit-content;
+    display: flex;
+    gap: 4px;
+    padding: 3px;
+
+}
+
+.inputWrapper {
+    display: flex;
+    align-items: center;
+
+    background: var(--background-3);
+    height: 100%;
+    border-radius: 5px;
+    border: transparent 1px solid;
+    transition: 150ms linear;
+    color: var(--fabric-color-secondary);
+}
+
+.input {
+    border-radius: 5px;
+    border: none;
+    background: transparent;
+    outline: none;
+
+    width: 100%;
+    color: var(--fabric-color-secondary);
+
+}
+
+.inputWrapper:focus-within {
+    border-color: var(--fabric-accent-color);
+}
+
